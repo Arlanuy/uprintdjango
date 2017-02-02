@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+body {
+  margin:0;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3fabad;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+ul.topnav li {
+  float: left;
+}
+
+ul.topnav li a.text {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-family: 'Lato';
+  font-size: 13px;
+}
+
+ul.topnav li a img.uprinticon {
+  display: inline-block;
+  text-align: center;
+  height: 30px;
+	width: 30px;
+	max-width: 100%;
+  margin: 10px 0px 0px 10px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 13px;
+}
+
+
+ul.topnav li i{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-left: 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 13px;
+}
+
+ul.topnav div.right {
+  float: right;
+}
+
+ul.topnav li a.hover:hover {
+  background-color: #65bbbd;
+}
+
+ul.topnav li.res-icon {
+  display: none;
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav div.right {
+    display: none;
+  }
+  ul.topnav li.res-icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {
+    position: relative;
+  }
+  ul.topnav.responsive li.res-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive div.right {
+    display: inline;
+    float: none;
+  }
+  ul.topnav.responsive div.right li {
+    float: none;
+    display: inline;
+    clear: left;
+  }
+  ul.topnav.responsive div.right li a {
+    display: block;
+    text-align: left;
+    clear: left;
+  }
+  ul.topnav.responsive div.right li a i{
+    display: block;
+    padding-bottom: 45px;
+  }
+}
+
+#updatebutton {
+    min-width: 20%;
+    font-size: 1em;
+    color: white;
+    border-radius: 4px;
+    padding: 1em 2em;
+    background-color: green;
+    border-color: green;
+    text-align: center;
+}
+
+#updatebackground {
+    min-width: 60%;
+    height: 70%;
+    float: right;
+    margin: 10px 60px;
+    padding: 20px 30px;
+    border-radius: 4px;
+    background-color: #3fabad;
+}
+
+.studentinput {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+#styledheader {
+    color: #b3fff0;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+#formdetails {
+    font-weight: bold;
+}
+
+#passreminder {
+    font-style:italic;
+}
+
+.YES {
+    align-content: center;
+    margin: 0px 0px 0px 15px;
+}
+
+.pic {
+  float: left;
+  margin: 0px 15px 0px 0px;
+  max-width: 100%;
+}
+
+.big {
+  height: 48px;
+  width: 48px;
+}
+
+.small {
+  height: 35px;
+  width: 35px;
+}
+
+#name {
+  font-size:20px;
+}
+
+#uprinticon {
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin: 0px 10px 0px 0px;
+  max-width: 100%;
+}
+
+.colorz{
+  background-color: #eff8dd;
+}
+
+.ui.fluid.card{
+  margin: 0.5em;
+}
+
+.ui.stackable.grid{
+  height: 100%;
+}

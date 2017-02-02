@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+body {
+  background-color: #3fabad;
+}
+
+.landing-page {
+  padding-top: 12%;
+  padding-left: 12%;
+  padding-right: 5%;
+  /*margin-left: 50px;*/
+}
+
+.relative-position {
+  position: relative;
+}
+
+.semibold {
+  font-family: 'Lato';
+  font-weight: 700;
+}
+
+.paragraph {
+  color: white;
+  padding-top: 5%;
+  font-size: 20px;
+}
+
+.form-padding{
+  padding: 10%;
+  background-color: white;
+}
+
+.form-padding-signup{
+  padding: 2%;
+  background-color: white;
+}
+
+.form-margin{
+  margin: 10%;
+}
+
+.white{
+  background-color: #3fabad;
+}
+
+.login-signup{
+  text-align: center;
+  font-family: 'Lato';
+  font-size: 20px;
+}
+
+.remember-me{
+  font-family: 'Lato';
+  font-weight: 100;
+}
+
+.signup-customer{
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+}
+
+.signup-shop{
+  text-align: left;
+}

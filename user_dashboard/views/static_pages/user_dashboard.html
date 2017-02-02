@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>UPrint</title>
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../assets/stylesheets/template.css">
+    <script src="../../assets/javascripts/template.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <!--navbar-->
+    <ul class="topnav" id="myTopnav">
+      <li><a href=""><img src="../../assets/images/kristy.png" class="ui circular image uprinticon"></img></a></li><!--direct to dashboard--><!--prof pic?-->
+      <li><a class="text active" href="" style="font-family: 'Lato'; font-weight: 900; font-size: 17px;">UPrint</a></li><!--direct to dashboard-->
+      <div class="right">
+        <li><a class="text hover" href="">HOME</a></li><!--direct to dashboard-->
+        <li><a class="text hover" href="">TRANSACTIONS</a></li><!--direct to history of transactions-->
+        <li><a class="text hover" href="">SHOPS</a></li><!--direct to list of shops-->
+        <li><a href="" style="padding-right: 16px;"><i class="large sign out icon"></i></a></li><!--log out-->
+      </div>
+      <li class="res-icon">
+        <a class="text" href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">&#9776;</a>
+      </li>
+    </ul>
+    <!--end of navbar-->
+
+    <!-- dashboard -->
+    <div style="margin-top:60px; height: 100%;"><!--added height: 100%-->
+      <div class="ui stackable grid">
+        <div class="four wide colorz column">
+          <div class="YES">
+
+            <div class="ui basic segment">
+              <div class="content">
+                <img src="../../assets/images/kristy.png" class="big pic" >
+                  <div id="name"><b>Juan Dela Cruz</b> </div>
+                <div class="meta">2012-34567</div>   
+                <a class="text hover" href="">Edit Settings</a> 
+              </div>
+            </div>
+
+            <div class="ui divider"></div>
+
+            <div class="content">
+                <h3> Shops Visited </h3>
+              <div class="ui fluid cards">
+                <a class="ui fluid card" href="#">
+                  <div class="content">
+                    <img src="../../assets/images/kristy.png" class="small pic">
+                    <div class="header">Shop Name</div>
+                    <div class="meta">
+                      Shop Location
+                    </div>
+                  </div>
+                </a>
+                <a class="ui fluid card" href="#">
+                  <div class="content">
+                    <img src="../../assets/images/kristy.png" class="small pic">
+                    <div class="header">Shop Name</div>
+                    <div class="meta">
+                      Shop Location
+                    </div>
+                  </div>
+                </a>
+                <a class="ui fluid card" href="#">
+                  <div class="content">
+                    <img src="../../assets/images/kristy.png" class="small pic">
+                    <div class="header">Shop Name</div>
+                    <div class="meta">
+                      Shop Location
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="ui vertical divider"></div>
+
+        <div class="twelve wide column">
+        <div class="YES">
+          <h2> Files </h2>
+          <div class="ui raised fluid cards">
+            <a class="ui card" href="#">
+              <div class="content">
+                <div class="header">Filename</div>
+              </div>
+              <div class="content">
+                <div class="description">
+                  <p>Status<br>
+                  Shop<br>
+                  etc</p>
+                </div>
+              </div>
+            </a>
+            <a class="ui card" href="#">
+              <div class="content">
+                <div class="header">Filename</div>
+              </div>
+              <div class="content">
+                <div class="description">
+                  <p>Status<br>
+                  Shop<br>
+                  etc</p>
+                </div>
+              </div>
+            </a><a class="ui card" href="#">
+              <div class="content">
+                <div class="header">Filename</div>
+              </div>
+              <div class="content">
+                <div class="description">
+                  <p>Status<br>
+                  Shop<br>
+                  etc</p>
+                </div>
+              </div>
+            </a><a class="ui card" href="#">
+              <div class="content">
+                <div class="header">Filename</div>
+              </div>
+              <div class="content">
+                <div class="description">
+                  <p>Status<br>
+                  Shop<br>
+                  etc</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of dashboard -->
+  </body>
+</html>
